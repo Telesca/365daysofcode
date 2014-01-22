@@ -10,14 +10,14 @@ class Dog(Animal):
 
 	def __init__(self, name):
 	## self has-a name 
-	self.name = name
+		self.name = name
 
 ## A cat is-a(n) animal:
 class Cat(Animal):
 
 	def __init__(self, name):
 	## self has a name
-	self.name = name
+		self.name = name
 
 ## A person is- a(n) object
 class Person(object):
@@ -25,14 +25,14 @@ class Person(object):
 	def __init__(self, name):
 	
 	##person has-a pet of some kind
-	self.pet = None
+		self.pet = None
 
 ## An employee is a person 
 class Employee(Person):
 	#employee has a super name
 	def __init__(self, name, salary):
 	##Self has-a salary
-	self.salary = salary
+		self.salary = salary
 
 ## a fish is an object
 class Fish(object):
@@ -42,6 +42,7 @@ class Salmon(Fish):
 	pass
 
 ## A Halibut is a fish
+class Halibut(Fish)
 	pass
 
 ## rover is-a Dog
@@ -55,7 +56,7 @@ satan = Cat("Satan")
 
  ## frank is-a employee
 
- frank = EMployee ("Frank", 120000)
+ frank = Employee ("Frank", 120000)
 
  ## frank has-a pet rover
  frank.pet = rover
@@ -67,7 +68,7 @@ satan = Cat("Satan")
  crouse = Salmon()
 
  ## harry is a halibut
- harry = Halinut()
+ harry = Halibut()
 
 
 
