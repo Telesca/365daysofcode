@@ -42,7 +42,7 @@ class Salmon(Fish):
 	pass
 
 ## A Halibut is a fish
-class Halibut(Fish)
+class Halibut(Fish):
 	pass
 
 ## rover is-a Dog
@@ -51,24 +51,26 @@ rover = Dog("Rover")
 ## satan is-a cat
 satan = Cat("Satan")
 
+## Mary is-a person
+mary = Person("Mary")
+
 # mary has a pet, satan
- mary.pet = satan
+mary.pet = satan
 
  ## frank is-a employee
-
- frank = Employee ("Frank", 120000)
+frank = Employee ("Frank", 120000)
 
  ## frank has-a pet rover
- frank.pet = rover
+frank.pet = rover
 
  ## flipper is-a fish
- flipper = Fish()
+flipper = Fish()
 
  ## crouse is-a salmon
- crouse = Salmon()
+crouse = Salmon()
 
  ## harry is a halibut
- harry = Halibut()
+harry = Halibut()
 
 
 
